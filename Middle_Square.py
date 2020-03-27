@@ -6,8 +6,7 @@ For a generator of n-digit numbers, the period can be no longer than 8n. If the 
 
 '''
 
-#note, an already_seen list is not included in the original middle square method and will not be used.
-
+#Returns a list of numbers of listlength length that are generated using the Middle Square method and a seed.
 def Middle_Square(seed, listlength):
     print("Middle_Square")
     numlist = []
